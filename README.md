@@ -6,4 +6,4 @@ Real-time tweets are streamed through Twitter V.2 API into local socket from whi
 Raw data is cleaned and preprocessed before being fed into ML model. Then, ML model takes tweets and classify it as real or fake alert. 
 
 # Run 
-All tasks (getting tweets, reading them with Spark, processing data) take place in a separate Docker container. All you need to do is to run docker compose which in turn creates docker images and spin docker containers. 
+All tasks (getting tweets, reading them with Spark, processing data) take place in a separate Docker container. All you need to do is to run start.sh  which in turn creates docker images and spin docker containers. 
